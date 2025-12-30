@@ -15,6 +15,7 @@ export function Navbar() {
   const routes = [
     { href: "/", label: "Home" },
     { href: "/projects", label: "Projects" }, // Software & Hardware projects
+    { href: "/resources", label: "Resources" }, // Resources and Documentation page
     { href: "/about", label: "About" }, // About Me page
   ]
 
