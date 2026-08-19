@@ -48,6 +48,13 @@ const resources: Resource[] = [
     description: "Open-source server virtualization management platform.",
     url: "https://www.proxmox.com/en/",
   },
+  {
+    id: "s5",
+    name: "PHP",
+    category: "Software",
+    description: "Php goated",
+    url: "https://www.php.net/",
+  },
 
   // --- HARDWARE RESOURCES ---
   {
@@ -71,13 +78,7 @@ const resources: Resource[] = [
     description: "Low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.",
     url: "https://www.espressif.com/en/products/socs/esp32",
   },
-  {
-    id: "h4",
-    name: "Php",
-    category: "Software",
-    description: "Php goated",
-    url: "https://www.php.net/",
-  },
+  
 ]
 
 export default function ResourcesPage() {

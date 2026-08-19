@@ -37,13 +37,13 @@ export default function AboutPage() {
             <Card>
               <CardContent className="pt-6">
                 <div className="mb-4">
-                  <h3 className="font-bold text-lg">Bachelor of Science in Information Technology</h3>
-                  <p className="text-muted-foreground">University Name Here • 2022 - Present</p>
+                  <h3 className="font-bold text-lg">Bachelor of Science in Computer Engineering</h3>
+                  <p className="text-muted-foreground">University Name Here • 2021 - Present</p>
                 </div>
                 <Separator className="my-4" />
                 <div>
                   <h3 className="font-bold text-lg">High School Diploma</h3>
-                  <p className="text-muted-foreground">School Name Here • Graduated 2022</p>
+                  <p className="text-muted-foreground">School Name Here • Graduated 2021</p>
                 </div>
               </CardContent>
             </Card>
