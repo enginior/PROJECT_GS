@@ -94,10 +94,11 @@ export default function ProjectsPage() {
       </div>
 
       <Tabs defaultValue="all" className="w-full">
-        <TabsList className="grid w-full grid-cols-3 lg:w-[400px]">
+        <TabsList className="grid w-full grid-cols-4 lg:w-[400px]">
           <TabsTrigger value="all">All</TabsTrigger>
           <TabsTrigger value="software">Software</TabsTrigger>
           <TabsTrigger value="hardware">Hardware</TabsTrigger>
+          <TabsTrigger value="server">Server</TabsTrigger>
         </TabsList>
 
         {/* TAB: ALL PROJECTS */}
@@ -125,6 +126,11 @@ export default function ProjectsPage() {
               <ProjectCard key={project.id} project={project} />
             ))}
           </div>
+        </TabsContent>
+        {/* TAB: SERVER */}
+        <TabsContent value="server" className="mt-6">
+          <Hammer className="h-12 w-12 text-muted-foreground" />
+          <p className="text-muted-foreground">Server projects are coming soon. Stay tuned!</p>
         </TabsContent>
       </Tabs>
     </div>
